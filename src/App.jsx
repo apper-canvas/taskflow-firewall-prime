@@ -7,6 +7,7 @@ import Signup from './pages/Signup';
 import Callback from './pages/Callback';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './components/pages/HomePage';
+import ProjectPage from './components/pages/ProjectPage';
 import NotFound from './pages/NotFound';
 
 // Create auth context
@@ -135,13 +136,12 @@ function App() {
       }
     });
   }, [navigate, dispatch]);
+}, [navigate, dispatch]);
 
   // Authentication methods to share via context
   const authMethods = {
-const authMethods = {
     isInitialized,
     logout: async () => {
-      try {
         if (window.ApperSDK && window.ApperSDK.ApperUI) {
           const { ApperUI } = window.ApperSDK;
           await ApperUI.logout();
@@ -175,7 +175,8 @@ const authMethods = {
         <Route path="/signup" element={<Signup />} />
         <Route path="/callback" element={<Callback />} />
         <Route path="/error" element={<ErrorPage />} />
-        <Route path="/" element={<HomePage darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
+<Route path="/" element={<HomePage darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
+        <Route path="/projects" element={<ProjectPage darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AuthContext.Provider>
