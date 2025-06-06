@@ -92,12 +92,16 @@ import React, { useState, useEffect } from 'react'
           setShowForm(false)
         }
 
-        const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
           e.preventDefault()
           if (!formData.title.trim()) return
 
           const taskData = {
-            ...formData,
+            title: formData.title,
+            description: formData.description,
+            category: formData.category,
+            priority: formData.priority,
+            dueDate: formData.dueDate,
             completed: editingTask ? editingTask.completed : false, // Preserve completed status on update
             archived: editingTask ? editingTask.archived : false, // Preserve archived status on update
             createdAt: editingTask ? editingTask.createdAt : new Date().toISOString()

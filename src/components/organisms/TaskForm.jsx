@@ -79,8 +79,8 @@ import React from 'react'
                       required
                     >
                       <option value="">Select category</option>
-                      {categories?.map(category => (
-                        <option key={category.id} value={category.name}>{category.name}>{category.name}</option>
+{categories?.map(category => (
+                        <option key={category.id} value={category.name}>{category.name}</option>
                       ))}
                     </Select>
 
