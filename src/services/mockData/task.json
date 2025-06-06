@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "title": "Complete project proposal",
+    "description": "Finalize the Q4 project proposal document and submit for review",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Buy groceries",
+    "description": "Get ingredients for weekly meal prep including vegetables and proteins",
+    "category": "Personal",
+    "priority": "medium",
+    "dueDate": "2024-01-12",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T10:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Schedule doctor appointment",
+    "description": "Annual health checkup with Dr. Smith",
+    "category": "Health",
+    "priority": "medium",
+    "dueDate": "2024-01-20",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T11:15:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Review team performance reports",
+    "description": "Analyze Q4 performance metrics and prepare feedback sessions",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-18",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T14:20:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Plan weekend hiking trip",
+    "description": "Research trails, check weather, and pack equipment",
+    "category": "Recreation",
+    "priority": "low",
+    "dueDate": "2024-01-13",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T16:45:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Update portfolio website",
+    "description": "Add recent projects and refresh design elements",
+    "category": "Work",
+    "priority": "medium",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-10T18:30:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Call insurance company",
+    "description": "Discuss policy renewal and coverage options",
+    "category": "Personal",
+    "priority": "high",
+    "dueDate": "2024-01-16",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-11T08:15:00Z"
+  },
+  {
+    "id": "8",
+    "title": "Learn React hooks",
+    "description": "Complete online course on advanced React patterns",
+    "category": "Learning",
+    "priority": "medium",
+    "dueDate": "2024-01-30",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-11T09:45:00Z"
+  },
+  {
+    "id": "9",
+    "title": "Organize closet",
+    "description": "Sort clothes for donation and reorganize seasonal items",
+    "category": "Personal",
+    "priority": "low",
+    "dueDate": "2024-01-14",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-11T12:00:00Z"
+  },
+  {
+    "id": "10",
+    "title": "Prepare presentation slides",
+    "description": "Create slides for Monday's client meeting presentation",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-14",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-11T15:30:00Z"
+  },
+  {
+    "id": "11",
+    "title": "Book flight tickets",
+    "description": "Reserve tickets for spring vacation trip to Europe",
+    "category": "Travel",
+    "priority": "medium",
+    "dueDate": "2024-01-22",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-11T17:15:00Z"
+  },
+  {
+    "id": "12",
+    "title": "Read monthly reports",
+    "description": "Review financial and operational reports from all departments",
+    "category": "Work",
+    "priority": "medium",
+    "dueDate": "2024-01-19",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-12T10:00:00Z"
+  },
+  {
+    "id": "13",
+    "title": "Exercise routine",
+    "description": "Maintain 4x weekly workout schedule with cardio and strength training",
+    "category": "Health",
+    "priority": "high",
+    "dueDate": "2024-01-31",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-12T07:30:00Z"
+  },
+  {
+    "id": "14",
+    "title": "Family dinner planning",
+    "description": "Organize menu and guest list for Sunday family gathering",
+    "category": "Personal",
+    "priority": "medium",
+    "dueDate": "2024-01-21",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-12T13:45:00Z"
+  },
+  {
+    "id": "15",
+    "title": "Car maintenance",
+    "description": "Schedule oil change and tire rotation at service center",
+    "category": "Personal",
+    "priority": "low",
+    "dueDate": "2024-01-28",
+    "completed": false,
+    "archived": false,
+    "createdAt": "2024-01-12T16:20:00Z"
+  }
+]
